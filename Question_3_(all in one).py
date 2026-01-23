@@ -1,8 +1,4 @@
-"""
-CYBERSECURITY ASSIGNMENT - SECTION B
-QUESTION 3: ASYMMETRIC ENCRYPTION (12 MARKS)
-Complete RSA Implementation - All Parts in One File
-"""
+
 
 from Crypto.PublicKey import RSA
 from Crypto.Cipher import PKCS1_OAEP
@@ -15,7 +11,7 @@ def main():
     print("=" * 80)
     
     # ========================================================================
-    # PART (i): Generate RSA Key Pair (3 Marks)
+    # PART (i): Generate RSA Key Pair 
     # ========================================================================
     print("\n" + "=" * 60)
     print("PART (i): GENERATING RSA KEY PAIR")
@@ -33,7 +29,7 @@ def main():
     print(f"  Modulus (n): {hex(public_key.n)[:40]}...")
     
     # ========================================================================
-    # PART (ii): Encrypt Message with Public Key (3 Marks)
+    # PART (ii): Encrypt Message with Public Key 
     # ========================================================================
     print("\n" + "=" * 60)
     print("PART (ii): ENCRYPTING MESSAGE WITH PUBLIC KEY")
@@ -63,7 +59,7 @@ def main():
     print(f"  Length: {len(ciphertext)} bytes")
     
     # ========================================================================
-    # PART (iii): Decrypt with Private Key (3 Marks)
+    # PART (iii): Decrypt with Private Key 
     # ========================================================================
     print("\n" + "=" * 60)
     print("PART (iii): DECRYPTING WITH PRIVATE KEY")
@@ -92,7 +88,7 @@ def main():
         return
     
     # ========================================================================
-    # PART (iv): Print Original, Encrypted, and Decrypted (2 Marks)
+    # PART (iv): Print Original, Encrypted, and Decrypted 
     # ========================================================================
     print("\n" + "=" * 60)
     print("PART (iv): COMPLETE PROCESS OUTPUT")
@@ -116,7 +112,7 @@ def main():
     print(f"   → RSA Decryption → '{decrypted_message}'")
     
     # ========================================================================
-    # PART (v): Confirm Successful Recovery (1 Mark)
+    # PART (v): Confirm Successful Recovery 
     # ========================================================================
     print("\n" + "=" * 60)
     print("PART (v): VERIFICATION OF SUCCESSFUL RECOVERY")
