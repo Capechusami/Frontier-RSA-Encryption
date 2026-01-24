@@ -7,7 +7,7 @@ import os
 
 def main():
     print("=" * 80)
-    print("QUESTION 3: RSA ASYMMETRIC ENCRYPTION")
+    print("RSA ASYMMETRIC ENCRYPTION")
     print("=" * 80)
     
     # ========================================================================
