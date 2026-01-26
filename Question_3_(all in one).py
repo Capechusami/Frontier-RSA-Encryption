@@ -112,7 +112,7 @@ def main():
     print(f"   → RSA Decryption → '{decrypted_message}'")
     
     # ========================================================================
-    # PART (v): Confirm Successful Recovery 
+    # Confirm Successful Recovery 
     # ========================================================================
     print("\n" + "=" * 60)
     print("PART (v): VERIFICATION OF SUCCESSFUL RECOVERY")
