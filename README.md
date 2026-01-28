@@ -16,7 +16,7 @@ By working with this project, you will:
 * 🧮 Implement **RSA key pair generation**
 * 🔐 Encrypt messages using the **public key**
 * 🔓 Decrypt messages using the **private key**
-* ✅ Validate and verify cryptographic operations
+
 
 ---
 
