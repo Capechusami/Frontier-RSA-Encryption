@@ -8,7 +8,7 @@ This repository is ideal for students, beginners, and anyone looking to understa
 
 ---
 
-## 🎯 Learning Objectives
+## 🎯 Learning Objective
 
 By working with this project, you will:
 
